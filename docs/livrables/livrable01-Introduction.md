@@ -1,13 +1,6 @@
-# Livrable 1 — Fiche de sujet
+# Livrable 1 — Fiche du projet
 
-_Galerie d'art en ligne : exposition et vente d'œuvres_
-
-| **Projet**            | Galerie d'art en ligne : exposition et vente d'œuvres |
-|-----------------------|-------------------------------------------------------|
-| **Membres du groupe** |                                                       |
-| **Dépôt Git**         | *À renseigner*                                        |
-
-## 10.2 Description du sujet
+## 1.1 Description du sujet
 
 **Domaine métier :** Le projet s'inscrit dans le domaine de la vente et l’exposition d'œuvres d'art en ligne.
 
@@ -28,7 +21,7 @@ _Galerie d'art en ligne : exposition et vente d'œuvres_
 | **Charge nominale et charge de pointe visées**          | **50 utilisateurs concurrents** en charge nominale et **100 utilisateurs** en charge de pointe | Effectuer un test de charge **k6** et vérifier les temps de réponse et le taux d'erreur.                                                                                 |
 | **Temps de reconstruction complet de l'infrastructure** | **≤ 15 minutes**                                                                               | Détruire puis reconstruire l'infrastructure à l'aide de **Terraform / Infrastructure as Code**, puis mesurer le temps nécessaire pour retrouver un service opérationnel. |
 | **Perte de données maximale admissible**                | **≤ 5 minutes** de données                                                                     | Simuler une perte de données, restaurer la dernière sauvegarde et vérifier que la quantité maximale de données perdues ne dépasse pas 5 minutes.                         |
-| **Budget total consommé sur le semestre**               | **≤ 100 USD**                                                                                  | Consulter le suivi des coûts de l'infrastructure Cloud et vérifier que la consommation reste inférieure ou égale au budget fixé.                                         |
+| **Budget total consommé sur le semestre**               | **≤ 50 USD**                                                                                  | Consulter le suivi des coûts de l'infrastructure Cloud et vérifier que la consommation reste inférieure ou égale au budget fixé.                                         |
 
 ## 10.4 Faisabilité préliminaire
 
