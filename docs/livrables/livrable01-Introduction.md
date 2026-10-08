@@ -13,7 +13,7 @@
 - **Backend – Node.js / Express** : Fournit les API et contient la logique métier de l'application, notamment l'authentification, la gestion des œuvres, des commandes et des transactions de vente, ainsi que l'envoi des notifications.
 - **Base de données – PostgreSQL (Amazon RDS)** : Assure le stockage des données de l'application, notamment les utilisateurs, les œuvres, les commandes et les informations relatives aux transactions de vente.
 
-## 10.3 Objectifs non fonctionnels auto-imposés
+## 1.2 Objectifs non fonctionnels auto-imposés
 
 | **Objectif**                                            | **Cible fixée par le groupe**                                                                  | **Mode de démonstration**                                                                                                                                                |
 |---------------------------------------------------------|------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -23,7 +23,7 @@
 | **Perte de données maximale admissible**                | **≤ 5 minutes** de données                                                                     | Simuler une perte de données, restaurer la dernière sauvegarde et vérifier que la quantité maximale de données perdues ne dépasse pas 5 minutes.                         |
 | **Budget total consommé sur le semestre**               | **≤ 50 USD**                                                                                  | Consulter le suivi des coûts de l'infrastructure Cloud et vérifier que la consommation reste inférieure ou égale au budget fixé.                                         |
 
-## 10.4 Faisabilité préliminaire
+## 1.3 Faisabilité préliminaire
 
 ### Services utilisés
 
